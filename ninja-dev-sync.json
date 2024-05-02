@@ -1,0 +1,119 @@
+{
+  "Version": 3,
+  "DefaultHost": "dev-dsk-tomtwang-2a-4d6816b1.us-west-2.amazon.com",
+  "DefaultWorkspaceRoot": "/workplace/tomtwang",
+  "LocalWorkspaceRoot": "",
+  "ShouldRespectUserSshConfig": false,
+  "RsyncFlags": [],
+  "WatchFlags": [],
+  "Exclude": [
+    "/.ninja-dev-sync-target",
+    "/*/build",
+    ".DS_Store",
+    "/*/wrapper",
+    "/*/node_modules",
+    "*/.cargo",
+    "*/rust-toolchain.toml",
+    "*/Cargo.lock",
+    "node_modules",
+    "package-lock.json"
+  ],
+  "Workspaces": [
+    {
+      "LocalSync": "/Volumes/workplace/workspaces/Brightside-development/src",
+      "RemoteHost": "dev-dsk-tomtwang-2a-4d6816b1.us-west-2.amazon.com",
+      "RemoteSync": "/workplace/tomtwang/Brightside-development/src",
+      "LocalPkgInfo": "/Volumes/workplace/workspaces/Brightside-development/packageInfo",
+      "RemotePkgInfo": "/workplace/tomtwang/Brightside-development/packageInfo",
+      "Exclude": []
+    },
+    {
+      "LocalSync": "/Volumes/workplace/workspaces/EdgeFlowLambda/src",
+      "RemoteHost": "dev-dsk-tomtwang-2a-4d6816b1.us-west-2.amazon.com",
+      "RemoteSync": "/workplace/tomtwang/EdgeFlowLambda/src",
+      "LocalPkgInfo": "/Volumes/workplace/workspaces/EdgeFlowLambda/packageInfo",
+      "RemotePkgInfo": "/workplace/tomtwang/EdgeFlowLambda/packageInfo",
+      "Exclude": []
+    },
+    {
+      "LocalSync": "/Volumes/workplace/workspaces/EdgeFlowDashboards/src",
+      "RemoteHost": "dev-dsk-tomtwang-2a-4d6816b1.us-west-2.amazon.com",
+      "RemoteSync": "/workplace/tomtwang/EdgeFlowDashboards/src",
+      "LocalPkgInfo": "/Volumes/workplace/workspaces/EdgeFlowDashboards/packageInfo",
+      "RemotePkgInfo": "/workplace/tomtwang/EdgeFlowDashboards/packageInfo",
+      "Exclude": []
+    },
+    {
+      "LocalSync": "/Volumes/workplace/workspaces/Performance-tooling/src",
+      "RemoteHost": "dev-dsk-tomtwang-2a-4d6816b1.us-west-2.amazon.com",
+      "RemoteSync": "/workplace/tomtwang/Performance-tooling/src",
+      "LocalPkgInfo": "/Volumes/workplace/workspaces/Performance-tooling/packageInfo",
+      "RemotePkgInfo": "/workplace/tomtwang/Performance-tooling/packageInfo",
+      "Exclude": []
+    },
+    {
+      "LocalSync": "/Volumes/workplace/workspaces/tomtwang-obsidian/src",
+      "RemoteHost": "dev-dsk-tomtwang-2a-4d6816b1.us-west-2.amazon.com",
+      "RemoteSync": "/workplace/tomtwang/tomtwang-obsidian/src",
+      "LocalPkgInfo": "/Volumes/workplace/workspaces/tomtwang-obsidian/packageInfo",
+      "RemotePkgInfo": "/workplace/tomtwang/tomtwang-obsidian/packageInfo",
+      "Exclude": []
+    },
+    {
+      "LocalSync": "/Volumes/workplace/workspaces/tomtwang-rust/src",
+      "RemoteHost": "dev-dsk-tomtwang-2a-4d6816b1.us-west-2.amazon.com",
+      "RemoteSync": "/workplace/tomtwang/tomtwang-rust/src",
+      "LocalPkgInfo": "/Volumes/workplace/workspaces/tomtwang-rust/packageInfo",
+      "RemotePkgInfo": "/workplace/tomtwang/tomtwang-rust/packageInfo",
+      "Exclude": []
+    },
+    {
+      "LocalSync": "/Volumes/workplace/workspaces/EdgeFlowDataService/src",
+      "RemoteHost": "dev-dsk-tomtwang-2a-4d6816b1.us-west-2.amazon.com",
+      "RemoteSync": "/workplace/tomtwang/EdgeFlowDataService/src",
+      "LocalPkgInfo": "/Volumes/workplace/workspaces/EdgeFlowDataService/packageInfo",
+      "RemotePkgInfo": "/workplace/tomtwang/EdgeFlowDataService/packageInfo",
+      "Exclude": []
+    },
+    {
+      "LocalSync": "/Volumes/workplace/workspaces/edgeflow-rust-playground/src",
+      "RemoteHost": "dev-dsk-tomtwang-2a-4d6816b1.us-west-2.amazon.com",
+      "RemoteSync": "/workplace/tomtwang/edgeflow-rust-playground/src",
+      "LocalPkgInfo": "/Volumes/workplace/workspaces/edgeflow-rust-playground/packageInfo",
+      "RemotePkgInfo": "/workplace/tomtwang/edgeflow-rust-playground/packageInfo",
+      "Exclude": []
+    },
+    {
+      "LocalSync": "/Volumes/workplace/workspaces/EdgeFlowService/src",
+      "RemoteHost": "dev-dsk-tomtwang-1b-50472534.ap-northeast-1.amazon.com",
+      "RemoteSync": "/workplace/tomtwang/EdgeFlowService/src",
+      "LocalPkgInfo": "/Volumes/workplace/workspaces/EdgeFlowService/packageInfo",
+      "RemotePkgInfo": "/workplace/tomtwang/EdgeFlowService/packageInfo",
+      "Exclude": []
+    },
+    {
+      "LocalSync": "/Volumes/workplace/workspaces/otto/src",
+      "RemoteHost": "dev-dsk-tomtwang-2a-4d6816b1.us-west-2.amazon.com",
+      "RemoteSync": "/workplace/tomtwang/otto/src",
+      "LocalPkgInfo": "/Volumes/workplace/workspaces/otto/packageInfo",
+      "RemotePkgInfo": "/workplace/tomtwang/otto/packageInfo",
+      "Exclude": []
+    },
+    {
+      "LocalSync": "/Volumes/workplace/workspaces/EdgeFlowServiceARM/src",
+      "RemoteHost": "dev-dsk-tomtwang-2a-4d6816b1.us-west-2.amazon.com",
+      "RemoteSync": "/workplace/tomtwang/EdgeFlowServiceARM/src",
+      "LocalPkgInfo": "/Volumes/workplace/workspaces/EdgeFlowServiceARM/packageInfo",
+      "RemotePkgInfo": "/workplace/tomtwang/EdgeFlowServiceARM/packageInfo",
+      "Exclude": []
+    },
+    {
+      "LocalSync": "/Volumes/workplace/workspaces/tomtwang-stash/src",
+      "RemoteHost": "dev-dsk-tomtwang-2a-4d6816b1.us-west-2.amazon.com",
+      "RemoteSync": "/workplace/tomtwang/tomtwang-stash/src",
+      "LocalPkgInfo": "/Volumes/workplace/workspaces/tomtwang-stash/packageInfo",
+      "RemotePkgInfo": "/workplace/tomtwang/tomtwang-stash/packageInfo",
+      "Exclude": []
+    }
+  ]
+}

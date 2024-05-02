@@ -1,0 +1,3 @@
+[alias]
+stashed = "script bash -c set -x -meu shopt -s extglob ; uuid=$(uuidgen) ; eda run git stash push -m\"Eda stashing $uuid\" && eda rebase && eda run bash -c \"git stash list -1 | grep $uuid && git stash pop || true\""
+b = "build brazil-build release"
