@@ -1,5 +1,5 @@
 # CodeWhisperer pre block. Keep at the top of this file.
-[[ -f "${HOME}/Library/Application Support/codewhisperer/shell/zshrc.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/codewhisperer/shell/zshrc.pre.zsh"
+#[[ -f "${HOME}/Library/Application Support/codewhisperer/shell/zshrc.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/codewhisperer/shell/zshrc.pre.zsh"
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -74,6 +74,7 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(zsh-autosuggestions jump zsh-syntax-highlighting)
 
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -108,7 +109,14 @@ DRAMDEVDESK="sxa-development-tomtwang-1e-512b800a.us-east-1.amazon.com"
 alias sshdevdesk='ssh $DEVDESK'
 alias ssharmdesk='ssh $ARMDESK'
 alias efstunnel='ssh -N -L 9000:localhost:80 $DEVDESK'
-alias unison-start='unison -ui text'
+#alias unison-start='unison -ui text'
+
+unisonstart() {
+  rm /Users/tomtwang/.unison/lk831cd9073b31656e2490add2d654be4f;
+  ssh tomtwang@$DEVDESK rm /home/tomtwang/.unison/lkca55428506604253d2c9fb886cd77aa2;
+  unison -ui text
+}
+
 alias syncserviceall='rsync -r -P --exclude '.git' --rsh=ssh tomtwang@$DEVDESK:/workplace/tomtwang/EdgeFlowService/src /Volumes/brazil-ws/workspaces/EdgeFlowService'
 alias scp_to_arm='scp -r nvim tomtwang@dev-dsk-tomtwang-2a-d53dfcb3.us-west-2.amazon.com:~/.config/'
 alias scp_to_x86='scp -r nvim $DEVDESK:~/.config/'
@@ -194,3 +202,4 @@ export PATH="/usr/local/bin:$PATH"
 # CodeWhisperer post block. Keep at the bottom of this file.
 [[ -f "${HOME}/Library/Application Support/codewhisperer/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/codewhisperer/shell/zshrc.post.zsh"
 eval "$(/opt/homebrew/bin/brew shellenv)"
+export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
