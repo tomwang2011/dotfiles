@@ -106,7 +106,9 @@ ARMDESK="dev-dsk-tomtwang-2a-d53dfcb3.us-west-2.amazon.com"
 alias jpeftunnel='ssh -N -L 9001:localhost:80 $JPDEVDESK'
 DRAMDEVDESK="sxa-development-tomtwang-1e-512b800a.us-east-1.amazon.com"
 alias sshdevdesk='ssh $DEVDESK'
+alias sdd='sshdevdesk'
 alias ssharmdesk='ssh $ARMDESK'
+alias sad='ssharmdesk'
 alias efstunnel='ssh -N -L 9000:localhost:80 $DEVDESK'
 #alias unison-start='unison -ui text'
 
