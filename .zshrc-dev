@@ -191,7 +191,7 @@ if command -v tmux &> /dev/null; then
   # Check if inside a tmux session
   if [[ -z "$TMUX" ]]; then
     # If not inside a tmux session, attach or create one
-    tmux attach || tmux
+    # tmux attach || tmux
   fi
 fi
 #eval "$(zellij setup --generate-auto-start zsh)"
