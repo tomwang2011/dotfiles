@@ -134,7 +134,7 @@ alias cdef="cd /workplace/tomtwang/unison/EdgeFlowService/src/EdgeFlowService"
 alias removeRustToolchains="find . -name 'rust-toolchain.toml' -delete"
 alias removeCargoLock="find . -name 'Cargo.lock' -delete"
 function dockerremoveimage() {docker rmi $(docker images | grep '$1')}
-alias forge='aws forge-beta --endpoint-url https://forge.ec2.aws.dev --region us-west-2'
+alias forge='aws forge --region us-west-2 --endpoint-url https://fes.us-west-2.prod.forgeservice.ec2.aws.dev'
 alias roverClean='docker image prune -a --filter "until=24h"'
 alias habClean='brazil-package-cache clean'
 alias habStart='share-http . 9002'
