@@ -187,14 +187,16 @@ alias openport='socat TCP-LISTEN:9999,reuseaddr,fork TCP:localhost:80'
 alias clear='clear && tmux clear-history'
 
 
+function ta() {
 # Check if tmux is available
 if command -v tmux &> /dev/null; then
   # Check if inside a tmux session
   if [[ -z "$TMUX" ]]; then
     # If not inside a tmux session, attach or create one
-    # tmux attach || tmux
+     tmux attach || tmux
   fi
 fi
+}
 #eval "$(zellij setup --generate-auto-start zsh)"
 #zellij attach --create
 precmd () {
