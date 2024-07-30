@@ -183,6 +183,7 @@ alias adabeta='ada credentials update --account=749061878630 --provider=conduit 
 alias adaprod='ada credentials update --account=749848647845 --provider=conduit --role=ForgeReadOnly --profile=default --once'
 alias adafallback='ada credentials update --account=579748028055 --provider=conduit --role=IibsAdminAccess-DO-NOT-DELETE --profile=default'
 alias adadev='ada credentials update --account=975050181663 --provider=conduit --role=EdgeXServiceAlpha-ContainerTaskRole'
+alias adadevadmin='ada credentials update --account=975050181663 --provider=conduit --role=IibsAdminAccess-DO-NOT-DELETE --profile=default'
 alias openport='socat TCP-LISTEN:9999,reuseaddr,fork TCP:localhost:80'
 alias clear='clear && tmux clear-history'
 
